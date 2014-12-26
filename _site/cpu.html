@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title></title>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <h1 class="print"></h1>
+
+    <header>
+      <ul>
+        <li>CSE 201</li>
+
+        <li><a href="./">schedule</a></li>
+        <li><a href="syllabus.html">syllabus</a></li>
+        <li><a href="contact.html">contact</a></li>
+
+        <li><a href="videos.html">videos</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <h1>What is a computer?</h1>
+
+<h2 id="von-neumann-architecture">Von Neumann Architecture</h2>
+
+<p>A computer is divided into 2 main parts: memory and a central processing unit (CPU).
+When the computer runs, the CPU executes machine instructions that are stored in memory.
+When an instruction executes, it may read and write data from and to memory.
+This approach to computer design is called the Von Neumann Architecture.</p>
+
+<h2 id="computer-programs">Computer programs</h2>
+
+<p>Computer programs are collections of data and machine instructions 
+that are loaded into memory and executed by the CPU. </p>
+
+<h2 id="processes">Processes</h2>
+
+<p>The running instance of a program in memory is referred to as a process. 
+Processes will generally get data from input devices 
+– such as keyboards, mouses and network interfaces – 
+as well as from the executable files from which they were loaded.</p>
+
+<h2 id="operating-system">Operating system</h2>
+
+<p>When a computer starts up, it loads and runs a program called the operating system. 
+The operating system manages the execution of other programs.</p>
+
+<h2 id="computer-memory">Computer memory</h2>
+
+<p>The smallest piece of information that can be represented in a computer is a bit.
+A bit can be in one of 2 states: off (zero) or on (one).</p>
+
+<p>Sequences of bits are used to represent numbers in the binary representation system.
+For example, a sequence of 2 bits represent the values 0 through 3 as follows.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">binary</th>
+      <th style="text-align: center">decimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">00</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">01</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">10</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">11</td>
+      <td style="text-align: center">3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sequences of 4 bits have 16 possible states.
+These states can be represented in decimal form (base 10) and in hexadecimal form (base 16) as follows.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">binary</th>
+      <th style="text-align: center">decimal</th>
+      <th style="text-align: center">hexadecimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0000</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0001</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0010</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0011</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0100</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0101</td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0110</td>
+      <td style="text-align: center">6</td>
+      <td style="text-align: center">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0111</td>
+      <td style="text-align: center">7</td>
+      <td style="text-align: center">7</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1000</td>
+      <td style="text-align: center">8</td>
+      <td style="text-align: center">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1001</td>
+      <td style="text-align: center">9</td>
+      <td style="text-align: center">9</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1010</td>
+      <td style="text-align: center">10</td>
+      <td style="text-align: center">A</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1011</td>
+      <td style="text-align: center">11</td>
+      <td style="text-align: center">B</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1100</td>
+      <td style="text-align: center">12</td>
+      <td style="text-align: center">C</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1101</td>
+      <td style="text-align: center">13</td>
+      <td style="text-align: center">D</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1110</td>
+      <td style="text-align: center">14</td>
+      <td style="text-align: center">E</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1111</td>
+      <td style="text-align: center">15</td>
+      <td style="text-align: center">F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sequences of 8 bits are called bytes. 
+Using decimal notation, bytes can take on values in the range [0, 255]. 
+Using hexadecimal notation, bytes can take on values in the range [0, FF]. </p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">binary</th>
+      <th style="text-align: center">decimal</th>
+      <th style="text-align: center">hexadecimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0000 0000</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0000 0001</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0000 0010</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0000 0011</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0000 0100</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">…</td>
+      <td style="text-align: center">…</td>
+      <td style="text-align: center">…</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1111 1110</td>
+      <td style="text-align: center">254</td>
+      <td style="text-align: center">FE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1111 1111</td>
+      <td style="text-align: center">255</td>
+      <td style="text-align: center">FF</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The maximum value of a byte is 255, but there are a total of 256 possible values.
+This fact is an example of the <em>off-by-one problem</em>
+that appears in many contexts when working with computers.</p>
+
+<p>Computer memory (RAM) is organized as a sequence of bytes.
+These bytes are sequentially numbered starting from zero.
+For example, if a computer has 4 GB of memory,
+then it has 4 GB bytes that are numbered from 0 to 4 GB minus one.</p>
+
+<p>The position of a byte in memory is referred to as an address or location.
+In a 32-bit computer, the memory addresses are represented using 4 bytes.
+In a 64-bit computer, the memory addresses are represented using 8 bytes.</p>
+
+<h2 id="central-processing-unit">Central processing unit</h2>
+
+<p>The CPU repeats a fetch-execute cycle in which machine instructions
+are sequentially read from memory and executed.
+On a 32-bit computer, the cycle roughly includes the following steps:</p>
+
+<ul>
+  <li>Read the instruction from RAM that is located at the address stored
+in the program counter and increment the program counter by the byte
+length of an instruction (4 on a 32-bit computer).</li>
+  <li>Depending on the instruction, data in memory referenced by the instruction
+is loaded into one or more registers.</li>
+  <li>The instruction is executed.</li>
+  <li>Depending on the instruction, data in registers may be written into memory.</li>
+</ul>
+
+<h2 id="assembly-language">Assembly language</h2>
+
+<p>As opposed to a high-level language such as C++,
+assembly language is a low-level language
+that provides a simple representation of machine instructions.
+Unlike C++, programs written in assembly language
+are neither portable across different processors nor across different operating systems.
+Before high-level languages, the only languages that existed were assembly languages.</p>
+
+<p>The following is an example program written in assembly language.
+When the program runs, it writes “hello\n” into the standard output stream.
+This program is written specifically for the Linux operating system.</p>
+
+<pre>
+# This program writes "hello"
+# to the standard output stream.
+
+.section .data
+
+# Use "bytes" to label the location
+# of the string "hello\n" in memory.
+bytes:
+.ascii "hello\n"
+
+.section .text
+.globl _start
+
+_start:
+
+# Step 1: use the Linux write-bytes
+# command to write the hello string
+# into the standard output stream.
+
+# Store 1 in register ebx.
+# This directs write-bytes to
+# write the bytes into the
+# standard output stream.
+movl $1, %ebx
+
+# Store the address of the bytes
+# into register ecx.
+movl $bytes, %ecx
+
+# Store the number of bytes to write
+# into register edx.
+movl $6, %edx
+
+# Store the numerical label of
+# the write-bytes command in
+# 4 in register eax.
+movl $4, %eax
+
+# Tell Linux to run the command
+# in register eax.
+int $0x80
+
+# Step 2: Use the Linux exit command
+# to terminate the program.
+
+# Store the status code in register ebx.
+# (Zero means normal termination.)
+movl $0, %ebx
+
+# Store the numerical label of
+# the exit command in register eax.
+movl $1, %eax
+
+# Tell Linux to run the command
+# in register eax.
+int $0x80
+</pre>
+
+<p>To transform the above code into an executable program, you need to do 2 things.
+First, you need to pass the code into an assembler,
+which transforms the code into machine instructions and stores the result in a file
+called an object file.
+Second, you pass the object file to a linker,
+which packages the program into an executable file.</p>
+
+<p>Assuming that the above program is stored in a file named <em>hello.s</em>,
+the following command invokes the assembler to produce an object file called <em>hello.o</em>.</p>
+
+<pre>
+as hello.s -o hello.o
+</pre>
+
+<p>
+The following command transforms the object file <em>hello.o</em>
+into an executable file named <em>a.out</em>.
+</p>
+
+<pre>
+ld hello.o
+</pre>
+
+<p>
+At this point, you can run the program with the following command.
+</p>
+
+<pre>
+./a.out
+</pre>
+
+<p>
+All programs return a status code.
+By convention, a value of 0 means that the program terminated normally;
+a value other than 0 means the program terminated due to an error.
+These returned values are used by scripts that start programs.
+The above program returns 0 when it exits.
+</p>
+
+
+    </div>
+  </body>
+
+</html>
+
