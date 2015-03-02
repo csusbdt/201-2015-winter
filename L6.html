@@ -71,6 +71,11 @@ Hint: the vector class has a function called <code>push_back</code>
 that appends values passed into it.
 </p>
 
+<p>
+Write test code that thoroughly tests the function.
+The test code should use assertions.
+</p>
+
 <h2>Exercise 4: Vector insertion (5 points)</h2>
 
 <p>
@@ -110,6 +115,11 @@ and the second argument is an integer <code>k</code>.
 The function returns the number of times <code>k</code> occurs in <code>v</code>.
 </p>
 
+<p>
+Write test code that thoroughly tests the function.
+The test code should use assertions.
+</p>
+
 <h2>Exercise 6: Two-dimensional arrays (5 points)</h2>
 
 <pre>
@@ -124,6 +134,22 @@ A declaration of the function is shown above.
 The array passed into the function will have 50 rows and 100 columns. 
 </p>
 
+<p>
+Use the following for your test code.
+</p>
+
+<pre>
+int a[50][100];
+for (int i = 0; i < 50; ++i) {
+    for (int j = 0; j < 100; ++j) {
+        a[i][j] = 0;
+    }
+}
+assert(isAllZeros(a) == true);
+a[20][32] = 3;
+assert(isAllZeros(a) == false);
+</pre>
+
 <h2>Exercise 7: Identical Vectors (5 points)</h2>
 
 <pre>
@@ -135,6 +161,11 @@ Write a predicate function that checks whether two vectors are identical (contai
 same elements in the same order).  
 A declaration of the function is shown above.
 The function returns true if the two vectors are identical; otherwise it returns false.
+</p>
+
+<p>
+Write test code that thoroughly tests the function.
+The test code should use assertions.
 </p>
 
 <h2>Exercise 8: Unlucky Vectors (5 points)</h2>
@@ -166,6 +197,11 @@ For example, it will return true for v = (­2, 4, 5, 6, 8) and it will return fa
 (3, 4, 6, 6, 9).
 </p>
 
+<p>
+Write test code that thoroughly tests the function.
+The test code should use assertions.
+</p>
+
 <h2>Exercise 10: Flatten (5 points)</h2>
 
 <pre>
@@ -178,4 +214,19 @@ with 100 rows and 200 columns and returns a vector that contains all of the arra
 Copy the values a row at a time. In other words, first copy row 0 into the vector, then row 1, then row 2, and so on.
 The declaration of flatten is given above.
 </p>
+
+<p>
+Use the following for your test code.
+</p>
+
+<pre>
+int a[100][200];
+for (int i = 0; i < 100; ++i) {
+    for (int j = 0; j < 200; ++j) {
+        a[i][j] = 3;
+    }
+}
+vector&lt;int> v = flatten(a);
+assert(v.size() == 100 * 200);
+</pre>
 
